@@ -1,0 +1,124 @@
+/*General layout*/
+.app-container{
+    display:flex;
+    justify-self: center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradiant(to right,#4c1d95,#1e3a8a);
+    font-family:Arial,sans-serif;
+    color:white;
+}
+/*card style*/
+.card{
+    background: #111827;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+}
+/* Titles */
+.title{
+    fonsize: 24px;
+    margin-bottom:20px;
+}
+.subtitle{
+    font-size:24px;
+    margin-bottom:15px;
+    color:#a5b4fc;
+}
+/* Album art */
+.album-art{
+    width: :120px;
+    height:120px;
+    background:linear-gradient(to right,#6366f1,#a855f7);
+    border-radius:50%;
+    margin:0 auto 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+}
+/*input fields*/
+.input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border:none;
+    border-radius:8px;
+    background:#1f2937;
+    color: white;
+}
+.input:focus{
+    outline: 2px solid #6366f1;
+}
+/*buttons*/
+.btn, .link-btn{
+    background:#6366f1;
+    padding: 10px 20px;
+    border:none;
+    font-weight:bold;
+    color:white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn:hover,link-btn:hover{
+    background: #4f46e5;
+}
+/*play button */
+.play-btn{
+    background:#8b5cf6;
+    padding:10px 20px;
+    border-radius:50%;
+    font-style: 18px;
+    margin:0 10px;
+    cursor:pointer;
+    border:none;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    margin: 20px 0 ;
+}
+.controls button{
+    background: none ;
+    border: none;
+    color: white;
+    font-size:20px;
+    cursor:pointer;
+}
+
+.playlist-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.playlist-item:hover{
+    background: #374151;
+}
+.song-title{
+    font-size:13px;
+    color:#9ca3af;
+}
+.artist{
+    font-size: 13px;
+    color: #9ca3af;
+}
+.volume-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.volume-slider{
+    width: 120px;
+    cursor: pointer;
+}
